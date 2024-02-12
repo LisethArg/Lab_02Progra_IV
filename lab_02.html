@@ -8,12 +8,14 @@
 
 </head>
 <body> <br><h3>Eventos  mouseover </h3> <! -- cambiamos el color del marco pasando el puntero -->
+    <p>Al pasar el ratón sobre una imagen, se muestra el nombre de la pintura.</p>
 
     <div class="container">
         
-        <div class="box" id="box1"><img src="imagen.jpg" alt="ejemplo 1"></div>
-        <div class="box" id="box2"><img src="image.jpg" alt="ejemplo 2"></div>
-        <div class="box" id="box3"><img src="imagen1.jpg" alt="ejemplo 3"></div>
+        <div class="box" id="box1" tabindex="0"><img src="imagen.jpg" alt="ejemplo 1"></div>
+        <div class="box" id="box2" tabindex="0"><img src="image.jpg" alt="ejemplo 2"></div>
+        <div class="box" id="box3" tabindex="0"><img src="imagen1.jpg" alt="ejemplo 3"></div>
+
        
 
         
@@ -21,6 +23,7 @@
     </div>
 
     <br><br><h3>Eventos Click </h3>
+    <p>Al hacer clic en una imagen, se muestra el texto con el nombre de la pintura.</p>
     <div class="container">
         
         <div class="box" id="box4"><img src="imagen0.jpg" alt="ejemplo 4"></div>
@@ -28,18 +31,19 @@
         <div class="box" id="box6"><img src="imagj.jpeg" alt="ejemplo 6"></div><br><br>
     </div>
     <h3>Eventos Focus </h3>
-    <div class="container"> 
-        <br><br>
-        <div class="box" id="box7"><img src="images.jpeg" alt="ejemplo 7"></div>
-        <div class="box" id="box8"><img src="imagj.jpeg" alt="ejemplo 8"></div>
-        <div class="box" id="box9"><img src="prisioneros.jpg" alt="ejemplo 9"></div>
-      
-       
-    </div>
+<p>Al enfocar una el botón (hacer clic o navegar), se muestra un texto.</p>
+<div class="container"> 
+    <br><br>
+    <button class="box" id="box7" tabindex="0">Ejemplo 7</button>
+    <button class="box" id="box8" tabindex="0">Ejemplo 8</button>
+    <button class="box" id="box9" tabindex="0">Ejemplo 9</button>
+</div>
+
 
     <script src="lab_02.js"></script>
     <footer>
         <p> Roxana Liseth Argueta Pérez SMIS635019 </p> <!-- es el pie de página -->
+        <p> David Ademir Ramos Lovos SMSS014022 </p> 
     </footer>
 </body>
 </html>

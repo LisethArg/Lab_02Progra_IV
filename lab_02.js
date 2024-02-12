@@ -1,35 +1,35 @@
 document.getElementById('box1').addEventListener('mouseover', function() {
-    this.style.backgroundColor = 'red';
+    this.innerHTML = "<p class='overlay-text'>Three White Cottages in Saintes-Maries Vicent Van Gogh</p>";
 });
 
 document.getElementById('box2').addEventListener('mouseover', function() {
-    this.style.backgroundColor = 'silver';
+    this.innerHTML = "<p class='overlay-text'>Autoretrato</p>";
 });
 
 document.getElementById('box3').addEventListener('mouseover', function() {
-    this.style.backgroundColor = 'blue';
+    this.innerHTML = "<p class='overlay-text'>Lirios</p>";
 });
 
 document.getElementById('box4').addEventListener('click', function() {
-    this.style.backgroundColor = 'yellow';
+    this.innerHTML = "<p class='overlay-text'>Cafe Terrace at Nigth</p>";
 });
 
 document.getElementById('box5').addEventListener('click', function() {
-    this.style.backgroundColor = 'orange';
+    this.innerHTML = "<p class='overlay-text'>Passeio ao Crepúsculo</p>";
 });
 
 document.getElementById('box6').addEventListener('click', function() {
-    this.style.backgroundColor = 'purple';
+    this.innerHTML = "<p class='overlay-text'>Casa blanca por la noche</p>";
 });
 
 document.getElementById('box7').addEventListener('focus', function() {
-    this.style.backgroundColor = 'pink';
+    this.innerHTML = "<p class='overlay-text'>Estás interactuando</p>";
 });
 
 document.getElementById('box8').addEventListener('focus', function() {
-    this.style.backgroundColor = 'cyan';
+    this.innerHTML = "<p class='overlay-text'>Con el evento</p>";
 });
 
 document.getElementById('box9').addEventListener('focus', function() {
-    this.style.backgroundColor = 'magenta';
+    this.innerHTML = "<p class='overlay-text'>Focus</p>";
 });
